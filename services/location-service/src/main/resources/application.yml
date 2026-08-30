@@ -1,0 +1,24 @@
+server:
+  port: 5004
+
+
+spring:
+  application:
+    name: location-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/yt_airline_location_db
+    username: root
+    password: Blessing@123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+#   show-sql: false
+
+
+
+
+
+
+
